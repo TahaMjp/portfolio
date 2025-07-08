@@ -6,7 +6,7 @@ import Skills from "./Skills/Skills";
 
 const Home = () => {
   return (
-    <div className="flex flex-col font-[sfPro] tracking-wide">
+    <div className="flex flex-col font-[sfPro] tracking-wide gap-y-2">
       <Header />
       <About />
       <Skills />
