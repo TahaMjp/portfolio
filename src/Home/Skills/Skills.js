@@ -2,7 +2,7 @@ const Skills = () => {
   return (
     <div className="p-4">
       <p className="text-2xl">Core Skills</p>
-      <ul className="text-lg my-1 mx-4 flex flex-wrap gap-2 w-10/12">
+      <ul className="text-lg my-1 mx-auto flex flex-wrap gap-2 w-10/12">
         <li className="border-2 border-black px-2">React</li>
         <li className="border-2 border-black px-2">JavaScript</li>
         <li className="border-2 border-black px-2">Tailwindcss</li>

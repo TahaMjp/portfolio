@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="p-4">
       <p className="text-2xl">About Me</p>
-      <p className="text-lg my-1 mx-4 w-10/12 text-pretty flex flex-col gap-y-2">
+      <p className="text-lg my-1 mx-auto w-10/12 text-pretty flex flex-col gap-y-3 border-s-2 border-black ps-2">
         <span>
           I’m a self-driven front-end developer who loves the mix of beautiful
           UI and solid code.
