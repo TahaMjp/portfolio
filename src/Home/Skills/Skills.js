@@ -1,22 +1,15 @@
 const Skills = () => {
   return (
-    <div className="p-4">
-      <p className="text-2xl">Core Skills</p>
-      <ul className="text-lg my-1 mx-auto flex flex-wrap gap-2 w-10/12">
-        <li className="border-2 border-black px-2">React</li>
-        <li className="border-2 border-black px-2">JavaScript</li>
-        <li className="border-2 border-black px-2">Tailwindcss</li>
-        <li className="border-2 border-black px-2">BootStrap</li>
-        <li className="border-2 border-black px-2">Responsive design</li>
-        <li className="border-2 border-black px-2">Sass</li>
-        <li className="border-2 border-black px-2">Css</li>
-        <li className="border-2 border-black px-2">Html</li>
-        <li className="border-2 border-black px-2">Git</li>
-        <li className="border-2 border-black px-2">Github</li>
-        <li className="border-2 border-black px-2">Figma</li>
-        <li className="border-2 border-black px-2">Article Writing</li>
-        <li className="border-2 border-black px-2">Artificial intelligence</li>
-      </ul>
+    <div className="backdrop-blur-md shadow-lg shadow-black/50 bg-white/10 rounded-xl p-6 w-10/12 mx-auto text-center text-white mt-10 border-white/20">
+      <h2 className="text-xl font-semibold mb-4">Tech I Work With</h2>
+      <div className="grid grid-cols-3 gap-3 text-white/90 tracking-wide">
+        <span className="bg-white/10 rounded-md py-2 px-2">React</span>
+        <span className="bg-white/10 rounded-md py-2 px-2">Tailwind</span>
+        <span className="bg-white/10 rounded-md py-2 px-2">JavaScript</span>
+        <span className="bg-white/10 rounded-md py-2 px-2">HTML</span>
+        <span className="bg-white/10 rounded-md py-2 px-2">CSS</span>
+        <span className="bg-white/10 rounded-md py-2 px-2">GitHub</span>
+      </div>
     </div>
   );
 };

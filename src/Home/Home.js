@@ -1,17 +1,13 @@
-import About from "./About/About";
-import Accounts from "./Accounts/Accounts";
+import Description from "./Description/Description";
 import Header from "./Header/Header";
-import Services from "./Services/Services";
 import Skills from "./Skills/Skills";
 
 const Home = () => {
   return (
-    <div className="flex flex-col font-[sfPro] tracking-wide gap-y-2">
+    <div className="flex flex-col h-screen bg-slate-900 text-white ">
       <Header />
-      <About />
+      <Description />
       <Skills />
-      <Services />
-      <Accounts />
     </div>
   );
 };
